@@ -1,0 +1,15 @@
+{
+    "apps": [
+        {
+            "name": "BaseApp",
+            "script": "src/index.js",
+            "instance": 1,
+            "autorestart": true,
+            "watch": false,
+            "time": true,
+            "env": {
+                "NODE_ENV": "production"
+            }
+        }
+    ]
+}
